@@ -1,0 +1,67 @@
+<!--
+Copyright (c) 2023 Gabriel Morozini
+
+Partes do software Bootstrap são sujeitas à licença MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE).
+
+Partes do software Bootstrap Icons são sujeitas à licença MIT (https://github.com/twbs/icons/blob/main/LICENSE).
+
+Desenvolvido com o uso da biblioteca Popper.js (https://popper.js.org/) - Licenciado sob a MIT License (https://github.com/floating-ui/floating-ui/blob/master/LICENSE)
+  
+Atribuição é obrigatória.
+-->
+
+<!DOCTYPE html>
+<html class="h-100" lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppRide</title>
+    <link rel="icon" type="image/png" sizes="512x512" href="img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style/global.css">
+</head>
+
+<body class="h-100">
+    <div class="container d-flex flex-column justify-content-between h-100">
+        <header>
+            <nav class="navbar justify-content-end">
+                <div class="w-100 position-fixed start-0 end-0 text-center">
+                    <i id="info"
+                        data-bs-content="Este aplicativo utiliza sua localização para fornecer serviços baseados em geolocalização. Esses dados são armazenados localmente no seu dispositivo."
+                        data-bs-toggle="popover" data-bs-custom-class="backgroundPopover"
+                        class="bi bi-exclamation-circle text-danger position-fixed top-0 start-0 fs-3 ms-3 p-2 pt-1">
+                    </i>
+                    <img data-bs-toggle="popover"
+                        data-bs-content='<div class="text-center"><a class="text-white text-decoration-none" href="https://github.com/GabrilMorozini/AppRide" target="_blank">Para mais informações <br> <span class="text-bg-warning btn btn-sm">clique aqui!</span></a>
+                    <br><br>
+                    <a class="text-white text-decoration-none" href="https://gabrielmorozini.com.br/" target="_blank">Para visualizar outros projetos <span class="text-bg-success btn btn-sm">clique aqui!</span></a></div>'
+                        data-bs-html="true" data-bs-custom-class="backgroundPopover" id="logoApp"
+                        src="./img/appRide.png" alt="App Ride Logo">
+                </div>
+                <a class="btn btn-close border border-dark p-2 z-3" href="./index.html"></a>
+            </nav>
+        </header>
+
+        <div
+            class="d-flex flex-column justify-content-center align-items-center bg-dark text-light flex-fill mb-3 rounded-3">
+            <span class="fw-bold display-1 speedFont" id="speed">0</span>
+            <span class="unitFont">Km/h</span>
+        </div>
+
+        <button class="btn btn-primary mb-3" id="start"><span class="display-3 fw-bold">Start</span></button>
+        <button class="btn btn-danger d-none mb-3" id="stop"><span class="display-3 fw-bold">Stop</span></button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+    <script src="./scripts/storage.js"></script>
+    <script src="./scripts/speedometer.js"></script>
+</body>
+
+</html>
