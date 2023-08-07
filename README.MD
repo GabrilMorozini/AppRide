@@ -1,26 +1,26 @@
 <div align="center">
 
-  [<img style="width=10px" src="./img/appRide-readme.png" alt="pagina em execução">](https://gabrielmorozini.com.br/AppRide)
+  [<img style="width=10px" src="./img/appRide-readme.png" alt="pagina em execução">](https://appride.gabrielmorozini.com.br/)
 
 </div>
 
 
 ## 📚 Sobre o projeto 
 
-O **[AppRide](https://gabrielmorozini.com.br/AppRide)** é um projeto desenvolvido durante o curso [Programador BR](https://programadorbr.com/), que visa oferecer uma experiência personalizada para usuários registrarem e analisarem suas atividades físicas que envolvam deslocamento, como corridas, caminhadas, ciclismo, skate, entre outras. Este aplicativo foi projetado para acompanhar e fornecer informações detalhadas sobre a velocidade máxima atingida, distância percorrida, duração da atividade, localização geográfica e a data em que ocorreu o registro. 
+O **[AppRide](https://appride.gabrielmorozini.com.br/)** é um projeto desenvolvido durante o curso [Programador BR](https://programadorbr.com/), que visa oferecer uma experiência personalizada para usuários registrarem e analisarem suas atividades físicas que envolvam deslocamento, como corridas, caminhadas, ciclismo, skate, entre outras. Este aplicativo foi projetado para acompanhar e fornecer informações detalhadas sobre a velocidade máxima atingida, distância percorrida, duração da atividade, localização geográfica e a data em que ocorreu o registro. 
 
-Além disso, o **[AppRide](https://gabrielmorozini.com.br/AppRide)** apresenta um recurso de visualização de mapa, que permite aos usuários visualizar os percursos realizados durante suas atividades, agregando uma dimensão visual única à sua jornada esportiva.
+Além disso, o **[AppRide](https://appride.gabrielmorozini.com.br/)** apresenta um recurso de visualização de mapa, que permite aos usuários visualizar os percursos realizados durante suas atividades, agregando uma dimensão visual única à sua jornada esportiva.
 
 
 ## 💡 Principais recursos
 
 **Calculadora de velocidade máxima:** Permite que você calcule sua velocidade máxima durante a atividade, ajudando você a monitorar seu desempenho e estabelecer metas de melhoria.
 
-**Cálculo de distância e duração:** Com as informações coletadas através da [API de geolocalização do objeto Navigator](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation), o **[AppRide](https://gabrielmorozini.com.br/AppRide)** é capaz de fornecer a distância percorrida e o tempo total de duração da sua atividade física, fornecendo uma visão abrangente do seu desempenho.
+**Cálculo de distância e duração:** Com as informações coletadas através da [API de geolocalização do objeto Navigator](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation), o **[AppRide](https://appride.gabrielmorozini.com.br/)** é capaz de fornecer a distância percorrida e o tempo total de duração da sua atividade física, fornecendo uma visão abrangente do seu desempenho.
 
 **Registro de local e data:** O aplicativo registra **localmente em seu dispositivo [(localStorage)](https://www.w3schools.com/jsref/prop_win_localstorage.asp)** a localização geográfica e a data de cada atividade, permitindo que você mantenha um histórico detalhado de suas conquistas.
 
-**Mapa interativo e visualização do percurso:** Graças à integração das APIs oferecidas pelo [Leaflet](https://leafletjs.com/) e  [OpenStreetMap](https://www.openstreetmap.org/#map=4/-21.21/-15.47), o **[AppRide](https://gabrielmorozini.com.br/AppRide)** exibe um mapa interativo, mostrando exatamente o percurso percorrido durante a atividade, dessa forma relembrando os lugares por onde passou.
+**Mapa interativo e visualização do percurso:** Graças à integração das APIs oferecidas pelo [Leaflet](https://leafletjs.com/) e  [OpenStreetMap](https://www.openstreetmap.org/#map=4/-21.21/-15.47), o **[AppRide](https://appride.gabrielmorozini.com.br/)** exibe um mapa interativo, mostrando exatamente o percurso percorrido durante a atividade, dessa forma relembrando os lugares por onde passou.
 
 
 ## 🚀 App em execução 
@@ -40,7 +40,7 @@ Além disso, o **[AppRide](https://gabrielmorozini.com.br/AppRide)** apresenta u
 
 ### 🌐 Para acessar o AppRide clique no link abaixo 
 
-https://gabrielmorozini.com.br/AppRide
+https://appride.gabrielmorozini.com.br/
 
 </div>
 
